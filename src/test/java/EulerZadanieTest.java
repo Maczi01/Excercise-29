@@ -38,9 +38,9 @@ public class EulerZadanieTest {
     @Test
     public void shouldReturnFourtyFourWhenGiveFourtyFour() {
         EulerZadanie ez = new EulerZadanie();
-        int n = 9;
+        int n = 44;
         int wynik = ez.fiboEvenSum(n);
-        assertThat(wynik, is(10));
+        assertThat(wynik, is(44));
     }
 
     @Test
